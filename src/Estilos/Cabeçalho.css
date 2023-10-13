@@ -1,0 +1,102 @@
+.cabeçalho {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: darkslateblue;
+}
+
+.imagem_cabeçalho {
+    width: 60px;
+    height: 60px;
+}
+
+.container_titulo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo {
+  font-size: 40px;
+}
+
+.container_pesquisa {
+  display: inline-block;
+  position: relative;
+}
+
+.pesquisa {
+  width: 30vw;
+  border-radius: 50px;
+  height: 30px;
+  text-indent: 20px;
+  display: inline-block;
+}
+
+.seta_busca {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  width: 25px;
+  cursor: pointer;
+}
+
+.entrar {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align: center;
+  width: 90px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+option {
+  background-color: aqua;
+}
+
+.container_entrar {
+  position: relative;
+  display: inline-block;
+}
+
+.botao_entrar {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.opçoes_lista {
+  padding: 0;
+  background-color: #000000;
+  border: 2px solid #ddd;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  cursor: pointer;
+}
+
+.opçao_item {
+  color: #ffffff;
+  padding: 12px 20px;
+  display: block;
+}
+
+.opçao_item:hover {
+  background-color: rgb(46, 19, 223);
+}
+
+.botao_entrar:hover,
+.botao_entrar:active {
+  background-color: #130b434d;
+}
